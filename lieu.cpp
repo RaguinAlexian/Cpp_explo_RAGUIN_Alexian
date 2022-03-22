@@ -18,10 +18,14 @@ int Lieu::getDifficult()
 {
     return _difficulty;
 }
+void addToList()
+{
+    _tableau.push_back(_value);
+}
 void Lieu::getList()
 {
    for(int i =0; i<_tableau.size(); i++){
-      std::cout << _tableau(_value);
+      std::cout << _tableau(i);
    } 
 }
 

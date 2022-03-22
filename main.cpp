@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 #include "lieu.cpp"
+#include <vector>
 
 // Exo 1
 
@@ -45,7 +46,7 @@
 
 //Exo 3
 
-int main(){
+/* int main(){
     Lieu * monLieu1;
     Lieu * monLieu2;
     Lieu * monLieu3;
@@ -55,5 +56,34 @@ int main(){
     monLieu3 = new Lieu("Chateau","Le chateau de la fin",19,3);
 
 
+
+    std::string choix;
+    while (choix != monLieu1->getNom() || choix != monLieu2->getNom() || choix != monLieu3->getNom())
+    {
+        std::cout << "Veuillez choisir votre chemin, 'Foret', 'Caverne' ou 'Chateau'." << std::endl;
+        std::cin >> choix;
+    }
+    if (choix == monLieu1->getNom())
+    {
+        std::cout << "Vous avez choisi le chemin de la foret" << std::endl;
+    }
+    else if (choix ==monLieu2->getNom())
+    {
+        std::cout << "Vous avez choisi le chemin de la caverne" << std::endl;
+    }
+    else if (choix ==monLieu3->getNom())
+    {
+        std::cout << "Vous avez choisi le chemin du chateau" << std::endl;
+    }
+
     return 0;
-}
+} */
+
+//Exo 4
+
+   /* std::vector<Lieu> listLieux;
+
+    listLieux.push_back(Lieu("foret","Foret dense dont la lumière peine à passer les feuillage",1,1));
+    listLieux.push_back(Lieu("Caverne","Caverne dont le chemin est pavé de torches fraichement posée",10,2));
+    listLieux.push_back(Lieu("Chateau","Le chateau de la fin",19,3));
+    */
