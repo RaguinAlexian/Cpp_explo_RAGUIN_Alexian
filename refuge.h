@@ -8,5 +8,6 @@ class Refuge : public Lieu{
     public:
         Refuge();
         Refuge(std::string nom);
+        int repos(int endu);
 };
 #endif

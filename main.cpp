@@ -44,7 +44,7 @@
     return 0;
 } */
 
-//Exo 3
+// Exo 3
 
 /* int main(){
     Lieu * monLieu1;
@@ -79,11 +79,34 @@
     return 0;
 } */
 
-//Exo 4
+// Exo 4
 
-   /* std::vector<Lieu> listLieux;
+/* std::vector<Lieu> listLieux;
 
     listLieux.push_back(Lieu("foret","Foret dense dont la lumière peine à passer les feuillage",1,1));
     listLieux.push_back(Lieu("Caverne","Caverne dont le chemin est pavé de torches fraichement posée",10,2));
     listLieux.push_back(Lieu("Chateau","Le chateau de la fin",19,3));
-    */
+*/
+
+// Exo 5
+
+/* int main(){
+    int endu;
+    endu << 100;
+    bool deplacement;
+
+    if(deplacement == true){
+        int tempo;
+        tempo << monLieuActuel->getDifficult() + monLieuArrive->getDifficult();
+        endu << endu - tempo;
+    }
+} */
+
+// Exo 7
+
+/* 
+ int main(){
+    if(monLieuActuel->repos() == true){
+        monLieuActuel->repos(endu);
+    }
+} */
