@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "lieu.cpp"
 
 // Exo 1
 
@@ -41,3 +42,18 @@
     }
     return 0;
 } */
+
+//Exo 3
+
+int main(){
+    Lieu * monLieu1;
+    Lieu * monLieu2;
+    Lieu * monLieu3;
+
+    monLieu1 = new Lieu("Foret","Foret dense dont la lumière peine à passer les feuillages",1,1);
+    monLieu2 = new Lieu("Caverne", "Caverne dont le chemin est pavé de torches fraichement posée",10,2);
+    monLieu3 = new Lieu("Chateau","Le chateau de la fin",19,3);
+
+
+    return 0;
+}
